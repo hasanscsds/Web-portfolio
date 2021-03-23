@@ -1,0 +1,544 @@
+
+$whiteall: #ffffff;
+$blackall: #070707;
+$backall:#C8C8C8;
+;
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("woff");
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    color: $blackall;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0em;
+    font-style: normal;
+}
+
+
+a [title="kholdarovkhasan@gmail.com"]{
+    color: #ebebeb;
+}
+
+body {
+    width: 100%;
+    .wrapper{
+        width: 1350px;
+
+        .home{
+            .container{
+                .home-top{
+                    .navbar{
+                        padding: 30px 0;
+                        border-bottom: 1px solid #828282;
+                        transform: matrix(1, 0, 0, 1, 0, 0);
+                        ul{
+                            padding: 0;
+                            display: flex;
+                            justify-content: space-between;
+                            .navbar-list{
+                                list-style: none;
+                                a{
+                                    text-decoration: none;
+                                    color: #828282;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    &:hover{
+                                        color: $blackall;
+                                    font-weight: 600;
+                                    transition: all 0.1s;
+
+
+                                    }
+                                    &:active{
+                                        color: $blackall;
+                                    font-weight: 600;
+
+                                    }
+                                }
+                               
+                            }
+                        }
+                    }
+                }
+                .home-bottom{
+                    .home-data{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .name{
+                            width: 125px;
+                            h1{
+                                text-transform: capitalize;
+                                font-size: 47px;
+                                line-height: 59px;
+                                text-align: left;
+                            }
+                        }
+                        .profession{
+                            width: 180px;
+                        }
+                        .language{
+                            height: 30px;
+                            transform: rotate(270deg);
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            strong{
+                                color: $blackall;
+                                padding: 0 5px;
+                            }
+                            .lang{
+                                margin: 0;
+                                color: #828282;
+                                &:hover{
+                                    color: $blackall;
+                                    font-weight: 600;
+                                    
+                                }
+                                &:active{
+                                    color: $blackall;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                    .home-img{
+                        margin-bottom: 104px;
+                    }
+                }
+            }
+        }
+        .about-me{
+            padding: 120px 0 107px ;
+            .container{
+                .about-me-top{
+                    margin: 0 auto;
+                    text-align: center;
+                    .about-me-card{
+                        width: 490px;
+                        margin: 0 auto;
+                        .text-part{
+                            margin-bottom: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        .skills{
+            padding: 90px 0 110px ;
+            
+            .container{
+                .skills-top{
+                    margin: 0 auto;
+                    text-align: center;
+                    .label-part{
+                        p{
+                            margin: 70px 0;
+                        }
+                    }
+                    
+                }
+                .skills-cards{
+                    display: flex;
+                    justify-content: space-between;
+                    .skills-card{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        .prg-img img{
+                            width: 90px;
+                        }
+                        span{
+                            font-size: 35px;
+                            word-spacing: 25px;
+                        }
+                        .text-prg{
+                            width: 90px;
+                            text-align: center;
+                        }    
+                        
+                    }
+                }
+            }
+        }
+        .portfolio{
+            padding: 90px 0 110px ;
+            position: relative;
+            .container{
+                .portfolio-top{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    .portfolio-cards{
+                        .portfolio-card{
+                            &:hover{
+                                transform: scale(1.05);
+                                transition: all 0.8s;
+                                
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .contacts{
+            padding: 90px 0 110px ;
+
+            .container{
+                .contacts-top{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .text-part{
+                        margin: 20px 0 30px;
+                        width: 300px;
+                        text-align: center;
+                    }
+                    button{
+                        padding: 10px 25px;
+                        background-color: $blackall;
+                        border-radius: 50px;
+                        outline: none;
+                        color: #ffffff;
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                    .contacts-box{
+                        width: 400px;
+                        margin: 85px 0 45px;
+                        display: flex;
+                        justify-content: space-between;
+                        a img{
+                                width: 45px;
+                        }
+                    }
+                    .text-prg{
+                        width: 450px;
+                        text-align: center;
+                        p{
+                            word-spacing: 1.55em;
+                            span{
+                                display: block;
+                                word-spacing: 0em;
+                                line-height: 2.5em;
+
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
+.container{
+    width: 945px;
+    margin: 0 auto;
+}
+.about-me,
+.portfolio{
+    background-color: $backall;
+}
+.portfolio{
+    background-color: $backall;
+}
+
+
+h2{
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.text{
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+
+
+.owl-btn{
+    position: absolute;
+    top: 50%;
+    img{
+        width: 50px;
+    }
+} 
+.owl-prev{
+left: 50px;
+}
+.owl-next{
+right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0) and (max-width: 375.9px) {
+    #wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        .home{
+            .container{
+                .home-top{
+                    display: none;
+                    visibility: hidden;
+                    .navbar{
+                        padding: 30px 0;
+                        border-bottom: 1px solid #828282;
+                        transform: matrix(1, 0, 0, 1, 0, 0);
+                        ul{
+                            padding: 0;
+                            display: flex;
+                            justify-content: space-between;
+                            .navbar-list{
+                                list-style: none;
+                                a{
+                                    text-decoration: none;
+                                    color: #828282;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    &:hover{
+                                        color: $blackall;
+                                    font-weight: 600;
+                                    transition: all 0.1s;
+
+
+                                    }
+                                    &:active{
+                                        color: $blackall;
+                                    font-weight: 600;
+
+                                    }
+                                }
+                               
+                            }
+                        }
+                    }
+                }
+                .home-bottom{
+                    width: 375px;
+                    .home-data{
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        .name{
+                            width: 125px;
+                            h1{
+                                text-transform: capitalize;
+                                font-size: 47px;
+                                line-height: 59px;
+                                text-align: left;
+                            }
+                        }
+                        .profession{
+                            width: 180px;
+                        }
+                        .language{
+                            height: 30px;
+                            transform: rotate(270deg);
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            strong{
+                                color: $blackall;
+                                padding: 0 5px;
+                            }
+                            .lang{
+                                margin: 0;
+                                color: #828282;
+                                &:hover{
+                                    color: $blackall;
+                                    font-weight: 600;
+                                    
+                                }
+                                &:active{
+                                    color: $blackall;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                    .home-img{
+                        width: 100%;
+                        margin-bottom: 104px;
+                    }
+                }
+            }
+        }
+        .about-me{
+            padding: 120px 0 107px ;
+            .container{
+                .about-me-top{
+                    margin: 0 auto;
+                    text-align: center;
+                    .about-me-card{
+                        width: 490px;
+                        margin: 0 auto;
+                        .text-part{
+                            margin-bottom: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        .skills{
+            padding: 90px 0 110px ;
+            
+            .container{
+                .skills-top{
+                    margin: 0 auto;
+                    text-align: center;
+                    .label-part{
+                        p{
+                            margin: 70px 0;
+                        }
+                    }
+                    
+                }
+                .skills-cards{
+                    display: flex;
+                    justify-content: space-between;
+                    .skills-card{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        .prg-img img{
+                            width: 90px;
+                        }
+                        span{
+                            font-size: 35px;
+                            word-spacing: 25px;
+                        }
+                        .text-prg{
+                            width: 90px;
+                            text-align: center;
+                        }    
+                        
+                    }
+                }
+            }
+        }
+        .portfolio{
+            padding: 90px 0 110px ;
+            position: relative;
+            .container{
+                .portfolio-top{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    .portfolio-cards{
+                        .portfolio-card{
+                            &:hover{
+                                transform: scale(1.05);
+                                transition: all 0.8s;
+                                
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .contacts{
+            padding: 90px 0 110px ;
+
+            .container{
+                .contacts-top{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .text-part{
+                        margin: 20px 0 30px;
+                        width: 300px;
+                        text-align: center;
+                    }
+                    button{
+                        padding: 10px 25px;
+                        background-color: $blackall;
+                        border-radius: 50px;
+                        outline: none;
+                        color: #ffffff;
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                    .contacts-box{
+                        width: 400px;
+                        margin: 85px 0 45px;
+                        display: flex;
+                        justify-content: space-between;
+                        a img{
+                                width: 45px;
+                        }
+                    }
+                    .text-prg{
+                        width: 450px;
+                        text-align: center;
+                        p{
+                            word-spacing: 1.55em;
+                            span{
+                                display: block;
+                                word-spacing: 0em;
+                                line-height: 2.5em;
+
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

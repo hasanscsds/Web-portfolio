@@ -1,0 +1,353 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("woff"); }
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+* {
+  box-sizing: border-box;
+  color: #070707;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0em;
+  font-style: normal; }
+
+a [title="kholdarovkhasan@gmail.com"] {
+  color: #ebebeb; }
+
+body {
+  width: 100%; }
+  body .wrapper {
+    width: 1350px; }
+    body .wrapper .home .container .home-top .navbar {
+      padding: 30px 0;
+      border-bottom: 1px solid #828282;
+      transform: matrix(1, 0, 0, 1, 0, 0); }
+      body .wrapper .home .container .home-top .navbar ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-between; }
+        body .wrapper .home .container .home-top .navbar ul .navbar-list {
+          list-style: none; }
+          body .wrapper .home .container .home-top .navbar ul .navbar-list a {
+            text-decoration: none;
+            color: #828282;
+            font-size: 18px;
+            line-height: 22px; }
+            body .wrapper .home .container .home-top .navbar ul .navbar-list a:hover {
+              color: #070707;
+              font-weight: 600;
+              transition: all 0.1s; }
+            body .wrapper .home .container .home-top .navbar ul .navbar-list a:active {
+              color: #070707;
+              font-weight: 600; }
+    body .wrapper .home .container .home-bottom .home-data {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      body .wrapper .home .container .home-bottom .home-data .name {
+        width: 125px; }
+        body .wrapper .home .container .home-bottom .home-data .name h1 {
+          text-transform: capitalize;
+          font-size: 47px;
+          line-height: 59px;
+          text-align: left; }
+      body .wrapper .home .container .home-bottom .home-data .profession {
+        width: 180px; }
+      body .wrapper .home .container .home-bottom .home-data .language {
+        height: 30px;
+        transform: rotate(270deg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        body .wrapper .home .container .home-bottom .home-data .language strong {
+          color: #070707;
+          padding: 0 5px; }
+        body .wrapper .home .container .home-bottom .home-data .language .lang {
+          margin: 0;
+          color: #828282; }
+          body .wrapper .home .container .home-bottom .home-data .language .lang:hover {
+            color: #070707;
+            font-weight: 600; }
+          body .wrapper .home .container .home-bottom .home-data .language .lang:active {
+            color: #070707;
+            font-weight: 600; }
+    body .wrapper .home .container .home-bottom .home-img {
+      margin-bottom: 104px; }
+    body .wrapper .about-me {
+      padding: 120px 0 107px; }
+      body .wrapper .about-me .container .about-me-top {
+        margin: 0 auto;
+        text-align: center; }
+        body .wrapper .about-me .container .about-me-top .about-me-card {
+          width: 490px;
+          margin: 0 auto; }
+          body .wrapper .about-me .container .about-me-top .about-me-card .text-part {
+            margin-bottom: 50px; }
+    body .wrapper .skills {
+      padding: 90px 0 110px; }
+      body .wrapper .skills .container .skills-top {
+        margin: 0 auto;
+        text-align: center; }
+        body .wrapper .skills .container .skills-top .label-part p {
+          margin: 70px 0; }
+      body .wrapper .skills .container .skills-cards {
+        display: flex;
+        justify-content: space-between; }
+        body .wrapper .skills .container .skills-cards .skills-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center; }
+          body .wrapper .skills .container .skills-cards .skills-card .prg-img img {
+            width: 90px; }
+          body .wrapper .skills .container .skills-cards .skills-card span {
+            font-size: 35px;
+            word-spacing: 25px; }
+          body .wrapper .skills .container .skills-cards .skills-card .text-prg {
+            width: 90px;
+            text-align: center; }
+    body .wrapper .portfolio {
+      padding: 90px 0 110px;
+      position: relative; }
+      body .wrapper .portfolio .container .portfolio-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        body .wrapper .portfolio .container .portfolio-top .portfolio-cards .portfolio-card:hover {
+          transform: scale(1.05);
+          transition: all 0.8s; }
+    body .wrapper .contacts {
+      padding: 90px 0 110px; }
+      body .wrapper .contacts .container .contacts-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        body .wrapper .contacts .container .contacts-top .text-part {
+          margin: 20px 0 30px;
+          width: 300px;
+          text-align: center; }
+        body .wrapper .contacts .container .contacts-top button {
+          padding: 10px 25px;
+          background-color: #070707;
+          border-radius: 50px;
+          outline: none;
+          color: #ffffff;
+          font-size: 18px;
+          line-height: 22px; }
+        body .wrapper .contacts .container .contacts-top .contacts-box {
+          width: 400px;
+          margin: 85px 0 45px;
+          display: flex;
+          justify-content: space-between; }
+          body .wrapper .contacts .container .contacts-top .contacts-box a img {
+            width: 45px; }
+        body .wrapper .contacts .container .contacts-top .text-prg {
+          width: 450px;
+          text-align: center; }
+          body .wrapper .contacts .container .contacts-top .text-prg p {
+            word-spacing: 1.55em; }
+            body .wrapper .contacts .container .contacts-top .text-prg p span {
+              display: block;
+              word-spacing: 0em;
+              line-height: 2.5em; }
+
+.container {
+  width: 945px;
+  margin: 0 auto; }
+
+.about-me,
+.portfolio {
+  background-color: #C8C8C8; }
+
+.portfolio {
+  background-color: #C8C8C8; }
+
+h2 {
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center; }
+
+p {
+  font-size: 18px;
+  line-height: 22px; }
+
+.text {
+  font-size: 14px;
+  line-height: 17px; }
+
+.owl-btn {
+  position: absolute;
+  top: 50%; }
+  .owl-btn img {
+    width: 50px; }
+
+.owl-prev {
+  left: 50px; }
+
+.owl-next {
+  right: 50px; }
+
+@media (min-width: 0) and (max-width: 375.9px) {
+  #wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    #wrapper .home .container .home-top {
+      display: none;
+      visibility: hidden; }
+      #wrapper .home .container .home-top .navbar {
+        padding: 30px 0;
+        border-bottom: 1px solid #828282;
+        transform: matrix(1, 0, 0, 1, 0, 0); }
+        #wrapper .home .container .home-top .navbar ul {
+          padding: 0;
+          display: flex;
+          justify-content: space-between; }
+          #wrapper .home .container .home-top .navbar ul .navbar-list {
+            list-style: none; }
+            #wrapper .home .container .home-top .navbar ul .navbar-list a {
+              text-decoration: none;
+              color: #828282;
+              font-size: 18px;
+              line-height: 22px; }
+              #wrapper .home .container .home-top .navbar ul .navbar-list a:hover {
+                color: #070707;
+                font-weight: 600;
+                transition: all 0.1s; }
+              #wrapper .home .container .home-top .navbar ul .navbar-list a:active {
+                color: #070707;
+                font-weight: 600; }
+    #wrapper .home .container .home-bottom {
+      width: 375px; }
+      #wrapper .home .container .home-bottom .home-data {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center; }
+        #wrapper .home .container .home-bottom .home-data .name {
+          width: 125px; }
+          #wrapper .home .container .home-bottom .home-data .name h1 {
+            text-transform: capitalize;
+            font-size: 47px;
+            line-height: 59px;
+            text-align: left; }
+        #wrapper .home .container .home-bottom .home-data .profession {
+          width: 180px; }
+        #wrapper .home .container .home-bottom .home-data .language {
+          height: 30px;
+          transform: rotate(270deg);
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          #wrapper .home .container .home-bottom .home-data .language strong {
+            color: #070707;
+            padding: 0 5px; }
+          #wrapper .home .container .home-bottom .home-data .language .lang {
+            margin: 0;
+            color: #828282; }
+            #wrapper .home .container .home-bottom .home-data .language .lang:hover {
+              color: #070707;
+              font-weight: 600; }
+            #wrapper .home .container .home-bottom .home-data .language .lang:active {
+              color: #070707;
+              font-weight: 600; }
+      #wrapper .home .container .home-bottom .home-img {
+        width: 100%;
+        margin-bottom: 104px; }
+    #wrapper .about-me {
+      padding: 120px 0 107px; }
+      #wrapper .about-me .container .about-me-top {
+        margin: 0 auto;
+        text-align: center; }
+        #wrapper .about-me .container .about-me-top .about-me-card {
+          width: 490px;
+          margin: 0 auto; }
+          #wrapper .about-me .container .about-me-top .about-me-card .text-part {
+            margin-bottom: 50px; }
+    #wrapper .skills {
+      padding: 90px 0 110px; }
+      #wrapper .skills .container .skills-top {
+        margin: 0 auto;
+        text-align: center; }
+        #wrapper .skills .container .skills-top .label-part p {
+          margin: 70px 0; }
+      #wrapper .skills .container .skills-cards {
+        display: flex;
+        justify-content: space-between; }
+        #wrapper .skills .container .skills-cards .skills-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center; }
+          #wrapper .skills .container .skills-cards .skills-card .prg-img img {
+            width: 90px; }
+          #wrapper .skills .container .skills-cards .skills-card span {
+            font-size: 35px;
+            word-spacing: 25px; }
+          #wrapper .skills .container .skills-cards .skills-card .text-prg {
+            width: 90px;
+            text-align: center; }
+    #wrapper .portfolio {
+      padding: 90px 0 110px;
+      position: relative; }
+      #wrapper .portfolio .container .portfolio-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        #wrapper .portfolio .container .portfolio-top .portfolio-cards .portfolio-card:hover {
+          transform: scale(1.05);
+          transition: all 0.8s; }
+    #wrapper .contacts {
+      padding: 90px 0 110px; }
+      #wrapper .contacts .container .contacts-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        #wrapper .contacts .container .contacts-top .text-part {
+          margin: 20px 0 30px;
+          width: 300px;
+          text-align: center; }
+        #wrapper .contacts .container .contacts-top button {
+          padding: 10px 25px;
+          background-color: #070707;
+          border-radius: 50px;
+          outline: none;
+          color: #ffffff;
+          font-size: 18px;
+          line-height: 22px; }
+        #wrapper .contacts .container .contacts-top .contacts-box {
+          width: 400px;
+          margin: 85px 0 45px;
+          display: flex;
+          justify-content: space-between; }
+          #wrapper .contacts .container .contacts-top .contacts-box a img {
+            width: 45px; }
+        #wrapper .contacts .container .contacts-top .text-prg {
+          width: 450px;
+          text-align: center; }
+          #wrapper .contacts .container .contacts-top .text-prg p {
+            word-spacing: 1.55em; }
+            #wrapper .contacts .container .contacts-top .text-prg p span {
+              display: block;
+              word-spacing: 0em;
+              line-height: 2.5em; }
+
+  .container {
+    width: 100%;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=main.css.map */
